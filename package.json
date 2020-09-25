@@ -1,5 +1,6 @@
 {
 	"scripts": {
+		"build": "mkdir public;",
 		"build-functions": "netlify-lambda build src",
 		"dev": "npm run build-functions; netlify dev --port 3000",
 		"test": "mocha"
